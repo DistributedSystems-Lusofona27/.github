@@ -15,6 +15,7 @@ Use **Use this template → Create a new repository**. Do not fork.
 
 | Lab | Template |
 | --- | --- |
+| 1 — Environment Setup | [lab-01-template](https://github.com/DistributedSystems-Lusofona27/lab-01-template) |
 | 2 — REST API and CRUD | [lab-02-rest-api-template](https://github.com/DistributedSystems-Lusofona27/lab-02-rest-api-template) |
 | 3 — JPA and Docker | [lab-03-jpa-docker-template](https://github.com/DistributedSystems-Lusofona27/lab-03-jpa-docker-template) |
 | 4 — Splitting the Monolith | [lab-04-store-microservices-template](https://github.com/DistributedSystems-Lusofona27/lab-04-store-microservices-template) |

@@ -29,7 +29,7 @@ repository you already have.
 
 ### Naming your repositories
 
-`lab-NN-<short-name>-aXXXXXXXX`. Both student numbers if you work in a pair.
+Each lab's exact repository name is on its own Delivery page in course-docs (not all labs follow the same shape). Both student numbers if you work in a pair.
 
 ### The stack
 

@@ -1,13 +1,25 @@
 ## Distributed Systems — Universidade Lusófona
 
-Course organisation for **Distributed Systems 2026/27**. Lab templates, reference
-implementations and student repositories live here.
+Course organisation for **Distributed Systems 2026/27**: the lab and final-project
+templates, and the repository that drives the course site. Students' own repositories
+for the course also live inside this organisation once they create them.
 
 ### Start here
 
 - **[course-docs](https://github.com/DistributedSystems-Lusofona27/course-docs)** — the
   source of the course site: every lab, the final project brief, and the version table
   everything is pinned to.
+
+Read the **site**, not the repository — pages are hidden from the site's navigation
+until their week, so browsing the raw files gets you ahead of where you should be.
+First page to read: **How this course works**, in course-docs.
+
+### How the labs appear
+
+Each lab is published at the start of its week, on a Monday. Seeing only Lab 1 on the
+site right now is the correct behaviour, not a broken import: labs that haven't opened
+yet simply aren't there, because several of them depend on decisions you make in the
+one before.
 
 ### Lab templates
 
@@ -24,15 +36,45 @@ Use **Use this template → Create a new repository**. Do not fork.
 | 10 — gRPC | [lab-10-grpc-template](https://github.com/DistributedSystems-Lusofona27/lab-10-grpc-template) |
 | Final project | [final-project-service-template](https://github.com/DistributedSystems-Lusofona27/final-project-service-template) |
 
-Labs 6, 8 and 9 have no template: 6 and 8 are design work, and 9 continues in the
-repository you already have.
+Labs 6, 8 and 9 have no template: each of them continues in the repository you
+delivered for the lab before it, not in a fresh one.
 
-### Naming your repositories
+### Naming your repository
 
-Each lab's exact repository name is on its own Delivery page in course-docs (not all labs follow the same shape). Both student numbers if you work in a pair.
+The exact name is on that lab's own Delivery page in course-docs — the shape isn't the
+same from one lab to the next (`lab-02-rest-api-aXXXXXXXX`, not
+`lab-02-rest-api-crud-...`, for instance), so check the page rather than guessing it
+from the lab's title. If you work in a pair, both student numbers, separated by a dash.
+
+### Submitting
+
+Everything is submitted on the **DS 2026/27 course page** on
+[moodle.ensinolusofona.pt](https://moodle.ensinolusofona.pt/): a **repository URL**, on
+`main`, plus the commit hash you want marked. The repository is what gets marked; the
+Moodle entry is how it's found and how the submission is timestamped. A repository
+that exists but was never submitted on Moodle counts as not delivered, and pasting
+code into the Moodle text box does not count as a submission. Each Delivery page names
+its own assignment and repeats this.
 
 ### The stack
 
-Java 25, Spring Boot 4.1, PostgreSQL 18, Apache Kafka 4.3 (KRaft), Docker Compose v2.
-If a tutorial you find contradicts something here, check its date — Spring Boot 4 landed
-in June 2026 and changed a lot.
+| | |
+| --- | --- |
+| JDK | 25 (LTS) |
+| Maven | 3.9.16 |
+| Spring Boot | 4.1.0 |
+| PostgreSQL | 18 |
+| Apache Kafka | 4.3.1 (KRaft) |
+| Docker Compose | v2 |
+
+Full, pinned list — every dependency, every container image, every port — in
+[Toolchain and versions](https://github.com/DistributedSystems-Lusofona27/course-docs/blob/main/toolchain-and-versions.md).
+
+### Getting help
+
+Start with that lab's own **Troubleshooting** page in course-docs, and search it for
+the error message you're seeing.
+
+---
+
+Course material by Marcelo Domingues. Built and reviewed with the help of AI tooling.

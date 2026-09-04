@@ -21,6 +21,9 @@ site right now is the correct behaviour, not a broken import: labs that haven't 
 yet simply aren't there, because several of them depend on decisions you make in the
 one before.
 
+The final project brief is the exception — it's on the site from the start, on
+purpose, so you can read it in the first weeks rather than the last fortnight.
+
 ### Lab templates
 
 Use **Use this template → Create a new repository**. Do not fork.

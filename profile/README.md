@@ -1,62 +1,63 @@
 ## Distributed Systems — Universidade Lusófona
 
-Course organisation for **Distributed Systems 2026/27**: the lab and final-project
-templates, and the repository that drives the course site. Students' own repositories
-for the course also live inside this organisation once they create them.
+Organização da cadeira de **Distributed Systems 2026/27**: os templates dos labs e do
+projeto final, e o repositório que gere o site da cadeira. Os repositórios dos alunos
+também vivem dentro desta organização, assim que os criarem.
 
-### Start here
+### Começa aqui
 
-- **[course-docs](https://github.com/DistributedSystems-Lusofona27/course-docs)** — the
-  source of the course site: every lab, the final project brief, and the version table
-  everything is pinned to.
+- **[course-docs](https://github.com/DistributedSystems-Lusofona27/course-docs)** — a
+  fonte do site da cadeira: todos os labs, o enunciado do projeto final, e a tabela de
+  versões a que tudo está fixado.
 
-Read the **site**, not the repository — pages are hidden from the site's navigation
-until their week, so browsing the raw files gets you ahead of where you should be.
-First page to read: **How this course works**, in course-docs.
+Lê o **site**, não o repositório — as páginas ficam escondidas da navegação do site até
+à sua semana, por isso ver os ficheiros em bruto põe-te à frente de onde devias estar.
+Primeira página a ler: **Como funciona esta cadeira**, no course-docs.
 
-### How the labs appear
+### Como os labs aparecem
 
-Each lab is published at the start of its week, on a Monday. Seeing only Lab 1 on the
-site right now is the correct behaviour, not a broken import: labs that haven't opened
-yet simply aren't there, because several of them depend on decisions you make in the
-one before.
+Cada lab é publicado no início da sua semana, numa segunda-feira. Ver só o Lab 1 no
+site neste momento é o comportamento correto, não uma importação partida: os labs que
+ainda não abriram simplesmente não estão lá, porque vários deles dependem de decisões
+que tomas no anterior.
 
-### Lab templates
+### Templates dos labs
 
-Use **Use this template → Create a new repository**. Do not fork.
+Usa **Use this template → Create a new repository**. Não faças fork.
 
 | Lab | Template |
 | --- | --- |
-| 1 — Environment Setup | [lab-01-template](https://github.com/DistributedSystems-Lusofona27/lab-01-template) |
-| 2 — REST API and CRUD | [lab-02-rest-api-template](https://github.com/DistributedSystems-Lusofona27/lab-02-rest-api-template) |
-| 3 — JPA and Docker | [lab-03-jpa-docker-template](https://github.com/DistributedSystems-Lusofona27/lab-03-jpa-docker-template) |
-| 4 — Splitting the Monolith | [lab-04-store-microservices-template](https://github.com/DistributedSystems-Lusofona27/lab-04-store-microservices-template) |
-| 5 — The Order Service | [lab-05-order-service-template](https://github.com/DistributedSystems-Lusofona27/lab-05-order-service-template) |
-| 7 — Kafka and Messaging | [lab-07-kafka-template](https://github.com/DistributedSystems-Lusofona27/lab-07-kafka-template) |
+| 1 — Configuração do Ambiente | [lab-01-template](https://github.com/DistributedSystems-Lusofona27/lab-01-template) |
+| 2 — REST API e CRUD | [lab-02-rest-api-template](https://github.com/DistributedSystems-Lusofona27/lab-02-rest-api-template) |
+| 3 — JPA e Docker | [lab-03-jpa-docker-template](https://github.com/DistributedSystems-Lusofona27/lab-03-jpa-docker-template) |
+| 4 — Dividir o Monólito | [lab-04-store-microservices-template](https://github.com/DistributedSystems-Lusofona27/lab-04-store-microservices-template) |
+| 5 — O Order Service | [lab-05-order-service-template](https://github.com/DistributedSystems-Lusofona27/lab-05-order-service-template) |
+| 7 — Kafka e Mensagens | [lab-07-kafka-template](https://github.com/DistributedSystems-Lusofona27/lab-07-kafka-template) |
 | 10 — gRPC | [lab-10-grpc-template](https://github.com/DistributedSystems-Lusofona27/lab-10-grpc-template) |
-| Final project | [final-project-service-template](https://github.com/DistributedSystems-Lusofona27/final-project-service-template) |
+| Projeto Final | [final-project-service-template](https://github.com/DistributedSystems-Lusofona27/final-project-service-template) |
 
-Labs 6, 8 and 9 have no template: each of them continues in the repository you
-delivered for the lab before it, not in a fresh one.
+Os Labs 6, 8 e 9 não têm template: cada um continua no repositório que entregaste no
+lab anterior, não num novo.
 
-### Naming your repository
+### Como nomear o teu repositório
 
-The exact name is on that lab's own Delivery page in course-docs — the shape isn't the
-same from one lab to the next (`lab-02-rest-api-aXXXXXXXX`, not
-`lab-02-rest-api-crud-...`, for instance), so check the page rather than guessing it
-from the lab's title. If you work in a pair, both student numbers, separated by a dash.
+O nome exato está na própria página de Entrega desse lab no course-docs — a forma não
+é igual de um lab para o outro (`lab-02-rest-api-aXXXXXXXX`, não
+`lab-02-rest-api-crud-...`, por exemplo), por isso confirma na página em vez de
+adivinhares a partir do título do lab. Se trabalhares a pares, os dois números de
+aluno, separados por um hífen.
 
-### Submitting
+### Como entregar
 
-Everything is submitted on the **DS 2026/27 course page** on
-[moodle.ensinolusofona.pt](https://moodle.ensinolusofona.pt/): a **repository URL**, on
-`main`, plus the commit hash you want marked. The repository is what gets marked; the
-Moodle entry is how it's found and how the submission is timestamped. A repository
-that exists but was never submitted on Moodle counts as not delivered, and pasting
-code into the Moodle text box does not count as a submission. Each Delivery page names
-its own assignment and repeats this.
+Tudo é entregue na **página da cadeira DS 2026/27** no
+[moodle.ensinolusofona.pt](https://moodle.ensinolusofona.pt/): um **URL de
+repositório**, em `main`, mais o hash do commit que queres que avaliemos. O
+repositório é o que avaliamos; a entrada no Moodle é como te encontramos e como a
+entrega é datada. Um repositório que existe mas nunca foi submetido no Moodle conta
+como não entregue, e colar código na caixa de texto do Moodle não conta como uma
+submissão. Cada página de Entrega nomeia a sua própria tarefa e repete isto.
 
-### The stack
+### A stack
 
 | | |
 | --- | --- |
@@ -67,14 +68,14 @@ its own assignment and repeats this.
 | Apache Kafka | 4.3.1 (KRaft) |
 | Docker Compose | v2 |
 
-Full, pinned list — every dependency, every container image, every port — in
-[Toolchain and versions](https://github.com/DistributedSystems-Lusofona27/course-docs/blob/main/toolchain-and-versions.md).
+Lista completa e fixada — cada dependência, cada imagem de container, cada porta — em
+[Toolchain e versões](https://github.com/DistributedSystems-Lusofona27/course-docs/blob/main/toolchain-and-versions.md).
 
-### Getting help
+### Pedir ajuda
 
-Start with that lab's own **Troubleshooting** page in course-docs, and search it for
-the error message you're seeing.
+Começa pela própria página de **Resolução de problemas** desse lab no course-docs, e
+procura nela pela mensagem de erro que estás a ver.
 
 ---
 
-Course material by Marcelo Domingues. Built and reviewed with the help of AI tooling.
+Material do curso por Marcelo Domingues. Construído e revisto com apoio de ferramentas de IA.
